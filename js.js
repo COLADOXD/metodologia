@@ -101,7 +101,7 @@ let menorCount = 0;
 
 for(let i = 0; i < menorArr.length; i++){
     if( i < menorArr[i]){
-        menorCount = menorCount + menorArr[i];
+        menorCount = menorCount + i;
     }
 }
 console.log(menorCount);
